@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+  <remote  name="gh"
+           fetch="https://github.com/" />
+           
+  <default revision="refs/heads/cm-12.0"
+           remote="gh"
+           sync-c="true"
+           sync-j="4" />
+ 
+   <project path="kernel/source" name="RenderBroken/msm8974_G2_render_kernel" remote="gh" revision="cm-12.0" />
+   <project path="android" name="Snuzzo/render_g2_manifest" remote="gh" revision="cm-12.0" />
+
+</manifest>
