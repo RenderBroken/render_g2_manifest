@@ -11,7 +11,7 @@
  
    <project path="ramdisk" name="RenderBroken/msm8974_G2_render_kernel_ramdisk" remote="gh" revision="master" />
    <project path="source" name="RenderBroken/msm8974_G2_render_kernel" remote="gh" revision="cm-12.0" />
-   <project path="toolchains/arm-cortex_a15-linux-gnueabihf-linaro_4.9" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="gh" revision="master"
+   <project path="toolchains/arm-cortex_a15-linux-gnueabihf-linaro_4.9" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="gh" revision="master" />
    <project path="android" name="Snuzzo/render_g2_manifest" remote="gh" revision="cm-12.0" />
 
 </manifest>
