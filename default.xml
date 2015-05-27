@@ -9,11 +9,11 @@
            sync-c="true"
            sync-j="8" />
  
-   <project path="ramdisk" name="RenderBroken/msm8974_G2_render_kernel_ramdisk" remote="gh" revision="master" />
-   	  <copyfile src="build-tools/build" dest="build"/>
+   <project path="ramdisk" name="Snuzzo/msm8974_G2_render_kernel_ramdisk" remote="gh" revision="wip_anykernel" />
+      	  <copyfile src="build-tools/build-anykernel.sh" dest="build"/>
    </project>
-   <project path="source" name="RenderBroken/msm8974_G2_render_kernel" remote="gh" revision="cm-12.0" />
+   <project path="source" name="Snuzzo/msm8974_G2_render_kernel" remote="gh" revision="wip" />
    <project path="toolchains/arm-cortex_a15-linux-gnueabihf-linaro_4.9" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="gh" revision="master" />
-   <project path="android" name="RenderBroken/render_g2_manifest" remote="gh" revision="cm-12.0" />
+   <project path="android" name="Snuzzo/render_g2_manifest" remote="gh" revision="wip_anykernel" />
 
 </manifest>
