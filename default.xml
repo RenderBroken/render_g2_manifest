@@ -7,13 +7,13 @@
   <default revision="refs/heads/cm-12.0"
            remote="gh"
            sync-c="true"
-           sync-j="4" />
+           sync-j="8" />
  
    <project path="ramdisk" name="RenderBroken/msm8974_G2_render_kernel_ramdisk" remote="gh" revision="master" />
-   <project path="source" name="RenderBroken/msm8974_G2_render_kernel" remote="gh" revision="cm-12.0" >
-	  <copyfile src="build" dest="build"/>
+   	  <copyfile src="build-tools/build" dest="build"/>
    </project>
+   <project path="source" name="RenderBroken/msm8974_G2_render_kernel" remote="gh" revision="cm-12.0" />
    <project path="toolchains/arm-cortex_a15-linux-gnueabihf-linaro_4.9" name="Christopher83/arm-cortex_a15-linux-gnueabihf-linaro_4.9" remote="gh" revision="master" />
-   <project path="android" name="Snuzzo/render_g2_manifest" remote="gh" revision="cm-12.0" />
+   <project path="android" name="RenderBroken/render_g2_manifest" remote="gh" revision="cm-12.0" />
 
 </manifest>
