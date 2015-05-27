@@ -9,7 +9,7 @@
            sync-c="true"
            sync-j="8" />
  
-   <project path="ramdisk" name="Snuzzo/msm8974_G2_render_kernel_ramdisk" remote="gh" revision="wip_anykernel" />
+   <project path="ramdisk" name="Snuzzo/msm8974_G2_render_kernel_ramdisk" remote="gh" revision="wip_anykernel" >
       	  <copyfile src="build-tools/build-anykernel.sh" dest="build"/>
    </project>
    <project path="source" name="Snuzzo/msm8974_G2_render_kernel" remote="gh" revision="wip" />
